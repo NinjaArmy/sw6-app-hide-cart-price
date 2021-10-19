@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+      <title>Basic Configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>
+        <input-field type="bool">
+            <name>SquaredIcon</name>
+            <label>Squared Icon on Cart?</label>
+            <label lang="de-DE">Eckiges Icon auf dem Warenkorb-Icon?</label>
+            <helpText>The badge is round on default. If you check this box it will be a square.</helpText>
+            <helpText lang="de-DE">Die Badge ist standardmäßig rund. Aktivieren Sie diese Einstellung um eine eckige Badge zu bekommen.</helpText>
+        </input-field>
+
+         <input-field type="colorpicker">
+            <name>BadgeColor</name>
+            <label>Color of the Badge</label>
+            <label lang="de-DE">Farbe der Badge</label>
+            <helpText>You can set the color of the badge here. On default the badge will get the color from the theme.</helpText>
+            <helpText lang="de-DE">Hier können Sie die Farbe der Badge auswählen. Standardmäßig bekommt die Badge die Farbe vom Theme.</helpText>
+        </input-field>
+
+          <input-field type="colorpicker">
+            <name>TextColor</name>
+            <label>Color of numbers in the Badge</label>
+            <label lang="de-DE">Farbe der Zahlen in der Badge</label>
+            <helpText>You can set the text-color of the numbers in the badge here. On default the numbers will be white..</helpText>
+            <helpText lang="de-DE">Hier können Sie die Textfarbe der Zahlen in der Badge auswählen. Standardmäßig sind die Zahlen weiß.</helpText>
+        </input-field>
+    </card>
+</config>

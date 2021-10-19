@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
+    <meta>
+        <name>NINJAHideCartPriceApp</name>
+        <label>Hide cart price</label>
+        <label lang="de-DE">Einkaufskorb Preis verstecken</label>
+        <description>Hides the price on menu cart icon.</description>
+        <description lang="de-DE">Versteckt den Preis am Menü Warenkorb-Icon.</description>
+        <author>Joschi Mehta</author>
+        <copyright>(c) by Ninja Army</copyright>
+        <version>1.0.0</version>
+        <icon>Resources/config/plugin.png</icon>
+        <license>MIT</license>
+    </meta>
+</manifest>
